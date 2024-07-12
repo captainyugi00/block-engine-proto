@@ -7,7 +7,7 @@
 package searcher
 
 import (
-	bundle "block-engine/bundle"
+	bundle "github.com/captainyugi00/block-engine-proto/bundle"
 	context "context"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

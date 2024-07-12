@@ -7,7 +7,7 @@
 package block
 
 import (
-	shared "block-engine/shared"
+	shared "github.com/captainyugi00/block-engine-proto/shared"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

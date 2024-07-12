@@ -7,8 +7,8 @@
 package relayer
 
 import (
-	packet "block-engine/packet"
-	shared "block-engine/shared"
+	packet "github.com/captainyugi00/block-engine-proto/packet"
+	shared "github.com/captainyugi00/block-engine-proto/shared"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

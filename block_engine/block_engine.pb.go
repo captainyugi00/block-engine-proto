@@ -7,9 +7,9 @@
 package block_engine
 
 import (
-	bundle "block-engine/bundle"
-	packet "block-engine/packet"
-	shared "block-engine/shared"
+	bundle "github.com/captainyugi00/block-engine-proto/bundle"
+	packet "github.com/captainyugi00/block-engine-proto/packet"
+	shared "github.com/captainyugi00/block-engine-proto/shared"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
